@@ -7,6 +7,9 @@ package com.azlanjamal.basicdagger2;
 public class B {
 
     public B() {
-        System.out.println("Hello from B");
+    }
+
+    public String showMessage() {
+        return "Hello from B";
     }
 }
